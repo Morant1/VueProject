@@ -1,0 +1,127 @@
+.book-details {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+    background-color: white;
+    .title {
+        text-align: center;
+        font-size: 2rem;
+        margin: 10px;
+    }
+    .book-img {
+        width: 250px;
+        height: 350px;
+        border-radius: 16px;
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        margin: 10px;
+    }
+    
+
+    .img-sale {
+        width: 75px;
+        position: absolute;
+        right: -34px;
+        top: 0;
+    }
+
+    .note-container {
+        display: flex;
+        .note {
+            margin: 0 2px;
+            background-color: lightblue;
+            border-radius: 16px;
+            padding: 5px;
+        }
+    }
+
+    .category-list {
+        display: flex;
+
+        .category-item {
+            margin: 0 3px;
+            color: #317d96;
+        }
+    }
+
+    .icons-container {
+        border: 1px solid;
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 16px;
+        text-align: center;
+        .icon {
+            width: 20px;
+        }
+        ul {
+            margin: 5px;
+        }
+    }
+
+    // LongTxt Component
+    .book-description {
+        text-align: center;
+        margin-top: 10px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        .toggle-btn {
+            background-color: lightgrey;
+            border-radius: 16px;
+            padding: 5px;
+            margin: 3px;
+            cursor: pointer;
+        }
+    }
+
+    .prev-next-btn {
+        margin:10px;
+        .btn {
+            transition: color .3s;
+            margin: 3px;
+            background-color: transparent;
+            padding: 3px;
+            border-radius: 16px;
+            border-color: #add8e6;
+            cursor: pointer;
+            outline:none;
+
+            &:hover {
+                color: lightblue;
+            }
+        }
+        }
+    
+
+    // Review
+
+    
+    .review-list {
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .review {
+            text-align: center;
+            margin: 5px;
+            border: 1px solid black;
+            padding: 5px;
+            min-width: 200px;
+            background-color: #add8e66e;
+        }
+    }
+
+    .btn-review {
+        outline: none;
+        margin: 10px;
+        border-radius: 16px;
+        border: none;
+        padding: 6px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+}

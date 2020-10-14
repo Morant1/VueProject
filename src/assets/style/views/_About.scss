@@ -1,0 +1,26 @@
+.about-container {
+    height: 100vh;
+    background-image: url(/img/books.15251971.jpg);
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-title {
+    padding: 10px;
+    font-family: Caveat,sans-serif ;
+    font-size: 3rem;
+    color:white;
+    text-shadow:2px 0 0#000;
+}
+
+.back-btn {
+    padding: 5px;
+    border-radius: 16px;
+    border: 1px;
+    cursor: pointer;
+}

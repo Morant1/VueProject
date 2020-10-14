@@ -1,0 +1,42 @@
+.nav-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top:0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    z-index: 4;
+
+    .logo {
+        color: white;
+        font-family: Caveat, sans-serif;
+        font-size: 1.4rem;
+
+        &:hover {
+            border: none;
+        }
+    }
+
+    a {
+        transition: all 3s;
+        font-size: 1.1rem;
+        margin: 10px;
+        color: white;
+
+        &:hover {
+            border-bottom: 1px solid white;
+        }
+    }
+    &.scrolled {
+        background-color: rgba(0, 0, 0, 0.425);
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .nav-container a {
+        margin: 8px;
+        font-size: 1rem;
+    }
+}

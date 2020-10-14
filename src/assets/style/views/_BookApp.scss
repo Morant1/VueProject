@@ -1,0 +1,35 @@
+.from-api {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .input {
+        text-align: center;
+        padding: 7px;
+        border-radius: 16px;
+        border: none;
+        background-color: #f3f6f7b3;
+        color: black;
+        margin-right: 4px;
+        margin-bottom: 3px;
+        outline: none;
+    }
+
+    .input-btn {
+        border-radius: 62%;
+        padding: 0 5px;
+        font-size: 1rem;
+        border: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        
+
+        &:hover {
+            background-color:lightgray;
+        }
+    }
+}

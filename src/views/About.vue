@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <section class="about-container">
+      <div class="about-title">BookVue gives you an online access to any book you want</div>
+  </section>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>

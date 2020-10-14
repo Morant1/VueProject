@@ -1,0 +1,28 @@
+.book-filter {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    .input {
+        font-family: Ubunto,sans-serif ;
+        padding: 10px;
+        border-radius: 16px;
+        border: 1px;
+        text-align: center;
+        margin:5px;
+        &:focus {
+            outline: none;
+        }
+
+        &.input-text {
+            width: 300px;
+        }
+
+        &.input-number {
+            width: 50px;
+            padding: 5px;
+        }
+    }
+}

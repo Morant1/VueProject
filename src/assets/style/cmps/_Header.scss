@@ -1,0 +1,30 @@
+.header-container {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('~@/assets/img/books.jpg');
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+.main-title {
+    font-family: Caveat,sans-serif ;
+    font-size: 3rem;
+    color:white;
+    animation:type 2.5s steps(16);
+    animation-timing-function: ease-in;
+    white-space: nowrap;
+    text-shadow:2px 0 0#000;
+}
+
+
+@keyframes type {
+    0% {
+        width:0ch;
+    }
+    100% {
+        width:16ch;
+    }
+}
